@@ -28,6 +28,7 @@ public:
 
 	void EnebleField();
 	void DisableField();
+	void EmptyOnlyEnebleField();
 
 	// òg1Å`9.
 	CString m_waku01;
@@ -41,6 +42,8 @@ public:
 	CString m_waku09;
 
 	CString m_msg;
+
+	int diffLevel;
 
 // é¿ëï
 protected:
@@ -62,6 +65,9 @@ protected:
 	void CPUputon();
 	void judgeResult();
 	void gameEnd();
+
+	void actDiff2();
+	void actDiff3();
 
 public:
 	void AllClear();
